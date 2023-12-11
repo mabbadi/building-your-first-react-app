@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <div>
+      <h1>Hello World!</h1>
+      <p id="someText">Page with basic HTML elements</p>
+      <div>
+        <button onclick="changeText()">Change text</button>
+      </div>
+    </div>
+    <script>
+      function changeText(){
+        var someText = document.getElementById("someText")
+        someText.innerHTML = "Lorem ipsum dolor sit amet.."
+      }
+    </script>
+  </body>
+</html>
